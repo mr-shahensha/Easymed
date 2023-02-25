@@ -92,8 +92,6 @@ if(!isset($_SESSION['number'])){
       $pic="css/banner.jpg";
     }
     ?>
-    
-
 
   <img src="<?php echo $pic;?>">
   <h1>Dr. <?php echo $name; ?></h1><p>(<?php echo $cat ?> specialist)</p>
