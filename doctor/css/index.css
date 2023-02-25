@@ -1,0 +1,108 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    margin-top:-2%;
+    margin-left: 28%;
+    height: 160px;
+    width: 640px;
+    border-radius: 10px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,teal, white);
+}
+.post .post1{
+    margin-top:1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.post .post1 select{
+    background-color: whitesmoke;
+    font-size: 24px;
+    font-weight: 700;
+    color:rgb(86, 85, 85);
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+}
+.post .post1 input{
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.post .post2{
+    margin-top:1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.post .post2 input{
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.post input[type=submit]{
+    display: flex;
+    align-items: center;
+    margin-left: 42%;
+    margin-top: 1%;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+.post input[type=submit]:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mypost{
+    display: flex;
+    flex-direction: column;
+    margin-left: 36%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-color: white;
+    border-left: 6px solid teal;
+    height: 20%;
+    width: 21%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.mypost a{
+    color: rgba(0, 0, 0, 0.863);
+}
+.mypost a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.mypost .stopb{
+    color: white !important;
+    background-color: rgba(255, 0, 0, 0.781);
+    border-radius: 10px;
+    padding: 6px;
+    width: 110px;
+}
+.mypost .stopb:hover{
+    transition: 0.7s;
+    background-color: red;
+}
+.mypost .repost{
+    color: white !important;
+    background-color: rgba(0, 128, 0, 0.826);
+    border-radius: 10px;
+    padding: 6px;
+    width: 66px;
+}
+.mypost .repost:hover{
+    background-color: green;
+    transition: 0.7s;
+}

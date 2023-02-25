@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    margin-right: 18%;
+}
+.form .inputbox{
+  font-weight: 600;
+    height: 50px;
+    width: 350px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.form .inputsub{
+  font-weight: 600;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white
+  }
+  table .head{
+      font-weight: 700;
+      font-size: 20px;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
