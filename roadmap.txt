@@ -1,3 +1,0 @@
-booking_dtl(tbl) : fld -> sl,docid,custid,bookingdate,status(0/1),remark.
-doc manu : new booking(0/1) ,booking history. 
-cust manu : my booking , booking history.
